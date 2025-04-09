@@ -1,0 +1,143 @@
+:root {
+    /* 基础颜色 */
+    --el-color-primary: oklch(0.71 0.097 111.7) !important;
+    --el-color-primary-light-3: oklch(0.81 0.097 111.7) !important;
+    --el-color-primary-light-5: oklch(0.86 0.097 111.7) !important;
+    --el-color-primary-light-7: oklch(0.91 0.097 111.7) !important;
+    --el-color-primary-light-8: oklch(0.94 0.097 111.7) !important;
+    --el-color-primary-light-9: oklch(0.97 0.097 111.7) !important;
+    --el-color-primary-dark-2: oklch(0.61 0.097 111.7) !important;
+
+    /* 成功颜色 */
+    --el-color-success: oklch(0.68 0.16 184.9) !important;
+    --el-color-success-light-3: oklch(0.78 0.16 184.9) !important;
+    --el-color-success-light-5: oklch(0.83 0.16 184.9) !important;
+    --el-color-success-light-7: oklch(0.88 0.16 184.9) !important;
+    --el-color-success-light-8: oklch(0.91 0.16 184.9) !important;
+    --el-color-success-light-9: oklch(0.94 0.16 184.9) !important;
+    --el-color-success-dark-2: oklch(0.58 0.16 184.9) !important;
+
+    /* 警告颜色 */
+    --el-color-warning: oklch(0.85 0.19 85.4) !important;
+    --el-color-warning-light-3: oklch(0.9 0.19 85.4) !important;
+    --el-color-warning-light-5: oklch(0.92 0.19 85.4) !important;
+    --el-color-warning-light-7: oklch(0.94 0.19 85.4) !important;
+    --el-color-warning-light-8: oklch(0.95 0.19 85.4) !important;
+    --el-color-warning-light-9: oklch(0.96 0.19 85.4) !important;
+    --el-color-warning-dark-2: oklch(0.75 0.19 85.4) !important;
+
+    /* 危险颜色 */
+    --el-color-danger: oklch(0.63 0.24 29.2) !important;
+    --el-color-danger-light-3: oklch(0.73 0.24 29.2) !important;
+    --el-color-danger-light-5: oklch(0.78 0.24 29.2) !important;
+    --el-color-danger-light-7: oklch(0.83 0.24 29.2) !important;
+    --el-color-danger-light-8: oklch(0.86 0.24 29.2) !important;
+    --el-color-danger-light-9: oklch(0.89 0.24 29.2) !important;
+    --el-color-danger-dark-2: oklch(0.53 0.24 29.2) !important;
+
+    /* 信息颜色 */
+    --el-color-info: oklch(0.48 0.09 210.9) !important;
+    --el-color-info-light-3: oklch(0.58 0.09 210.9) !important;
+    --el-color-info-light-5: oklch(0.63 0.09 210.9) !important;
+    --el-color-info-light-7: oklch(0.68 0.09 210.9) !important;
+    --el-color-info-light-8: oklch(0.71 0.09 210.9) !important;
+    --el-color-info-light-9: oklch(0.74 0.09 210.9) !important;
+    --el-color-info-dark-2: oklch(0.38 0.09 210.9) !important;
+
+    /* 文本颜色 */
+    --el-text-color-primary: oklch(0.41 0.077 78.9) !important;
+    --el-text-color-regular: oklch(0.51 0.077 74.3) !important;
+    --el-text-color-secondary: oklch(0.51 0.077 74.3) !important;
+    --el-text-color-placeholder: oklch(0.51 0.077 74.3) !important;
+    --el-text-color-disabled: oklch(0.51 0.077 74.3) !important;
+
+    /* 边框颜色 */
+    --el-border-color: oklch(0.74 0.063 80.8) !important;
+    --el-border-color-light: oklch(0.74 0.063 80.8) !important;
+    --el-border-color-lighter: oklch(0.74 0.063 80.8) !important;
+    --el-border-color-extra-light: oklch(0.74 0.063 80.8) !important;
+
+    /* 填充颜色 */
+    --el-fill-color: oklch(0.92 0.042 83.6) !important;
+    --el-fill-color-light: oklch(0.88 0.055 83.6) !important;
+    --el-fill-color-lighter: oklch(0.86 0.055 83.6) !important;
+    --el-fill-color-extra-light: oklch(0.86 0.055 83.6) !important;
+    --el-fill-color-blank: oklch(0.91 0.048 83.6) !important;
+
+    /* 背景颜色 */
+    --el-bg-color: oklch(0.91 0.048 83.6) !important;
+    --el-bg-color-overlay: oklch(0.92 0.042 83.6) !important;
+
+    /* 圆角 */
+    --el-border-radius-base: 0.625rem !important;
+    --el-border-radius-small: calc(0.625rem - 4px) !important;
+    --el-border-radius-large: calc(0.625rem + 4px) !important;
+    --el-border-radius-round: 9999px !important;
+
+    /* 阴影 */
+    --el-box-shadow-light: 0 2px 0 0 var(--el-border-color) !important;
+    --el-box-shadow: 0 2px 0 0 var(--el-border-color) !important;
+    --el-box-shadow-dark: 0 2px 0 0 var(--el-border-color) !important;
+}
+
+/* 暗色模式 */
+html.dark {
+    --el-color-primary: oklch(0.922 0 0) !important;
+    --el-color-primary-light-3: oklch(0.822 0 0) !important;
+    --el-color-primary-light-5: oklch(0.722 0 0) !important;
+    --el-color-primary-light-7: oklch(0.622 0 0) !important;
+    --el-color-primary-light-8: oklch(0.522 0 0) !important;
+    --el-color-primary-light-9: oklch(0.422 0 0) !important;
+    --el-color-primary-dark-2: oklch(0.722 0 0) !important;
+
+    --el-text-color-primary: oklch(0.985 0 0) !important;
+    --el-text-color-regular: oklch(0.985 0 0) !important;
+    --el-text-color-secondary: oklch(0.708 0 0) !important;
+    --el-text-color-placeholder: oklch(0.708 0 0) !important;
+    --el-text-color-disabled: oklch(0.708 0 0) !important;
+
+    --el-border-color: oklch(1 0 0 / 10%) !important;
+    --el-border-color-light: oklch(1 0 0 / 10%) !important;
+    --el-border-color-lighter: oklch(1 0 0 / 10%) !important;
+    --el-border-color-extra-light: oklch(1 0 0 / 10%) !important;
+
+    --el-fill-color: oklch(0.205 0 0) !important;
+    --el-fill-color-light: oklch(0.269 0 0) !important;
+    --el-fill-color-lighter: oklch(0.269 0 0) !important;
+    --el-fill-color-extra-light: oklch(0.269 0 0) !important;
+    --el-fill-color-blank: oklch(0.145 0 0) !important;
+
+    --el-bg-color: oklch(0.145 0 0) !important;
+    --el-bg-color-overlay: oklch(0.205 0 0) !important;
+}
+
+/* 自定义组件样式 */
+.el-button {
+    border-width: 2px !important;
+}
+
+.el-input__wrapper,
+.el-select__wrapper,
+.el-date-editor {
+    border-width: 2px !important;
+}
+
+.el-card {
+    border-width: 2px !important;
+}
+
+/* 纹理效果 */
+.texture {
+    background-image: url(https://matsu-theme.vercel.app/texture.jpg);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    opacity: 0.12;
+    mix-blend-mode: multiply;
+    z-index: 100;
+    isolation: isolate;
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
+    pointer-events: none;
+}
